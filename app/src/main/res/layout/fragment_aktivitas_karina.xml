@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Aktivitas Sehari-hari Karina"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="08.00 ( Bangun Tidur )\n10.20 ( Jaga Warung )\n16.50 ( Siap-siap Berangkat Kuliah )\n17.30 ( Berangkat Kuliah )\n21.40 ( Pulang Kuliah )\n23.00 ( Nonton Film )\n00.00 ( Mengerjakan Tugas Kuliah )\n01.00 ( Tidur )"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dp" />
+
+    </LinearLayout>
+</ScrollView>

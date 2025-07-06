@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Foto Karina -->
+        <ImageView
+            android:id="@+id/fotoKarina"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/yudha"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_border"
+            android:contentDescription="Foto Yudha" />
+
+        <!-- Judul -->
+        <TextView
+            android:text="RIWAYAT PENDIDIKAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Riwayat Pendidikan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="435dp"
+            android:text="- SDN 01 Jakarta\n- SMPN 5 Tangerang\n- SMAN 3 Depok\n- Universitas Yatsi Madani (Ilmu Komputer)"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

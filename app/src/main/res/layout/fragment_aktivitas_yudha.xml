@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Aktivitas Sehari-hari Yudha"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="05.00 ( Solat Subuh )\n06.00 ( Siap-siap Kerja )\n07.30 ( Berangkat Kerja )\n12.00 ( Istirahat )\n13.00 ( Masuk Kerja )\n17.00 ( Pulang Kerja )\n17.20 ( Siap-siap Kuliah )\n17.50 ( Berangkat Kuliah )\n21.40 ( Pulang Kuliah )\n23.00 ( Tidur )"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dp" />
+
+    </LinearLayout>
+</ScrollView>

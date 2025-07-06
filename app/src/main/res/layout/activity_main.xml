@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KELOMPOK 10"
+            android:textSize="28sp"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Foto Karina -->
+        <ImageView
+            android:id="@+id/fotoKarina"
+            android:layout_width="127dp"
+            android:layout_height="113dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/karina" />
+
+        <Button
+            android:id="@+id/btnKarina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Karina Nur Khalizah"
+            android:textSize="18sp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Foto Tamamul -->
+
+        <ImageView
+            android:id="@+id/fotoTamamul"
+            android:layout_width="137dp"
+            android:layout_height="114dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tamamul" />
+
+        <Button
+            android:id="@+id/btnTamamul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muhamad Tamamul Qodri"
+            android:textSize="18sp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Foto Yudha -->
+        <ImageView
+            android:id="@+id/fotoYudha"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yudha" />
+
+        <Button
+            android:id="@+id/btnYudha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahmad Yudha Yasha"
+            android:textSize="18sp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

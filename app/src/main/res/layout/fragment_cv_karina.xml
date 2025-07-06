@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Foto -->
+        <ImageView
+            android:id="@+id/fotoKarina"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/karina"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_border"
+            android:contentDescription="Foto Karina" />
+
+        <!-- Judul Biodata -->
+        <TextView
+            android:text="BIODATA DIRI"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D0D0D"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <!-- Isi Biodata -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama: Karina Nur Khalizah\nNIM: 23050544\nTempat, Tanggal Lahir: Tangerang, 21 November 2004\nAlamat: Jl. Al Mukhlisin\nNomor HP: 083854039021\nEmail: karinanurkhalizah999@gmail.com\nHobi: Nonton Film"
+            android:textSize="17sp"
+            android:textColor="#0D0D0D"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6dp" />
+
+        <!-- Judul Riwayat Pendidikan -->
+        <TextView
+            android:text="RIWAYAT PENDIDIKAN"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D0D0D"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <!-- Riwayat Pendidikan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• MI Al Mukhlisim (2010 - 2016)\n• MTS At-Taqwa (2017 - 2019)\n• MA At-Taqwa (2020 - 2022)\n• Universitas Yatsi Madani (2023 - Sekarang)"
+            android:textSize="17sp"
+            android:textColor="#0D0D0D"
+            android:gravity="start"
+            android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+</ScrollView>
